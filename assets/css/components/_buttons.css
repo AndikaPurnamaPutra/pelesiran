@@ -1,0 +1,14 @@
+.btn {
+  display: flex;
+}
+
+.btn-icon {
+  padding: 8px;
+  background-color: #EE7214;
+  border-radius: 999px;
+}
+
+.btn-icon img {
+  width: 16px;
+  height: 16px;
+}

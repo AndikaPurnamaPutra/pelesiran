@@ -1,0 +1,117 @@
+.section-header {
+  padding-top: 96px;
+  padding-bottom: 48px;
+  background-image: url(../../images/bg-header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-header .container {
+  z-index: 2;
+}
+
+.section-header .subtext-text {
+  max-width: 770px;
+}
+
+.section-header .content-top {
+  margin-bottom: 162px;
+}
+
+.section-header .subtext-card {
+  max-width: 481px;
+}
+
+.section-header .subtext-text-display {
+  margin-bottom: 40px;
+}
+
+.section-header .subtext-text-desc {
+  max-width: 632px;
+  margin-bottom: 70px;
+}
+
+.section-header form {
+  padding: 20px 20px;
+  background-color: rgba(120, 120, 120, 0.5);
+  max-width: 684px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.section-header form input,
+.section-header form input::placeholder {
+  background-color: transparent;
+  border: unset;
+  width: 100%;
+  font-family: var(--text);
+  color: #fff;
+}
+
+.section-header form input:focus {
+  border: unset;
+  outline: unset;
+}
+
+.section-header .subtext-card .card {
+  border: unset;
+  padding: 14px;
+  gap: 7px;
+  background-color: rgba(120, 120, 120, 0.3);
+  backdrop-filter: blur(40px);
+  border-radius: 10px;
+}
+
+.section-header .subtext-card .card .card-img {
+  border-radius: 10px;
+}
+
+.section-header .subtext-card .card .card-body {
+  padding: 0;
+  gap: 60px;
+}
+
+.section-header .card .card-body .content-title {
+  color: #fff;
+  font-size: 18px;
+  line-height: 150%;
+}
+.section-header .card .card-body .content-span {
+  color: #d9d9d9;
+}
+
+.section-header .category {
+  gap: 25px;
+}
+
+.section-header .category-item {
+  background-color: rgba(120, 120, 120, 0.5);
+  border-radius: 10px;
+  padding: 12px;
+  gap: 8px;
+}
+
+.section-header .category-item img {
+  max-width: 108px;
+  max-height: 108px;
+}
+
+.section-header .category-item .item-text {
+  font-size: 14px;
+  font-family: var(--text);
+  color: #fff;
+}
+
+.section-header .social-media {
+  bottom: 80px;
+  right: 0;
+  gap: 15px;
+}
+
+.section-header .social-media .item-link {
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 999px;
+}
